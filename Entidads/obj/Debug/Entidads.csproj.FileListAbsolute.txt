@@ -1,0 +1,6 @@
+C:\Users\palos\source\repos\ActividadParcial\Entidads\bin\Debug\Entidads.dll
+C:\Users\palos\source\repos\ActividadParcial\Entidads\bin\Debug\Entidads.pdb
+C:\Users\palos\source\repos\ActividadParcial\Entidads\obj\Debug\Entidads.csproj.AssemblyReference.cache
+C:\Users\palos\source\repos\ActividadParcial\Entidads\obj\Debug\Entidads.csproj.CoreCompileInputs.cache
+C:\Users\palos\source\repos\ActividadParcial\Entidads\obj\Debug\Entidads.dll
+C:\Users\palos\source\repos\ActividadParcial\Entidads\obj\Debug\Entidads.pdb
