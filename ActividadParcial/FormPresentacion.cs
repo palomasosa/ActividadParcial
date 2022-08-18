@@ -21,7 +21,7 @@ namespace ActividadParcial
         private void btnAgregarPer_Click(object sender, EventArgs e)
         {
             bool esValido = true;
-            if (txtbxDNI.Text.Length != 7)
+            if (txtbxDNI.Text.Length != 7 && txtbxDNI.Text.Length != 8)
             {
                 esValido = false;
             }
