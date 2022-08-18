@@ -17,7 +17,7 @@ namespace ActividadParcial
         {
             InitializeComponent();
         }
-
+        Persona PersonaNueva;
         private void btnAgregarPer_Click(object sender, EventArgs e)
         {
             bool esValido = true;
@@ -33,14 +33,20 @@ namespace ActividadParcial
 
             if (esValido == true)
             {
-                Persona PersonaNueva = new Persona(txtbxNombre.Text.ToString(), Convert.ToInt32(txtbxDNI.Text), Convert.ToDateTime(dtpFechaNac.Text));
+                PersonaNueva = new Persona(txtbxNombre.Text.ToString(), Convert.ToInt32(txtbxDNI.Text), Convert.ToDateTime(dtpFechaNac.Text));
                 lblPrueba.Text = PersonaNueva.NombreProp.ToString();
+                btnCalcEdad.Enabled = true;
             }
             else
             {
                 MessageBox.Show("DNI no válido");
             }
+        }
 
+        private void btnCalcEdad_Click(object sender, EventArgs e)
+        {
+            int Edad = PersonaNueva.devolverEdad();
+            lblEdad.Text = Edad.ToString();
         }
     }
 }

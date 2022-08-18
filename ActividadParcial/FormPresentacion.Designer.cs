@@ -110,6 +110,7 @@
             this.btnCalcEdad.TabIndex = 8;
             this.btnCalcEdad.Text = "Calcular edad";
             this.btnCalcEdad.UseVisualStyleBackColor = true;
+            this.btnCalcEdad.Click += new System.EventHandler(this.btnCalcEdad_Click);
             // 
             // lblEdadMostrada
             // 

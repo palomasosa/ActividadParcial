@@ -44,7 +44,17 @@ namespace Entidads
         #region Metodos
         public int devolverEdad()
         {
-           int Edad = DateTime.Now.Year - FechaNac.Year;
+            int Edad;
+           int mesActual = DateTime.Now.Month;
+           int mesFechaNac = FechaNac.Month;
+            if (mesActual < mesFechaNac)
+            {
+                Edad = (DateTime.Now.Year - FechaNac.Year) - 1;
+            }
+            else 
+            { 
+                Edad = DateTime.Now.Year - FechaNac.Year; 
+            }
            return Edad;
         }
         #endregion
