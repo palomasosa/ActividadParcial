@@ -123,10 +123,11 @@
             // dtpFechaNac
             // 
             this.dtpFechaNac.Location = new System.Drawing.Point(174, 147);
-            this.dtpFechaNac.MaxDate = new System.DateTime(2022, 12, 25, 23, 59, 59, 0);
+            this.dtpFechaNac.MaxDate = new System.DateTime(2022, 8, 18, 13, 3, 7, 0);
             this.dtpFechaNac.Name = "dtpFechaNac";
             this.dtpFechaNac.Size = new System.Drawing.Size(200, 23);
             this.dtpFechaNac.TabIndex = 10;
+            this.dtpFechaNac.Value = new System.DateTime(2022, 8, 18, 0, 0, 0, 0);
             // 
             // lblPrueba
             // 
